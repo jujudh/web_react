@@ -1,18 +1,18 @@
-/*자격증 종류를 선택하는 필터 컴포넌트*/
+/*자격증 종류 선택하는 필터 컴포넌트*/
 
 import React, { useState } from 'react';
 
 const ExamOptionList = (e) => {
-    const [dropdown1, setDropdownOption1] = useState('');
-    const [dropdown2, setDropdownOption2] = useState('');
-    const [dropdown3, setDropdownOption3] = useState('');
+    const [dropdown1, setDropdownOption1] = useState('techTest');
+    const [dropdown2, setDropdownOption2] = useState('master');
+    const [dropdown3, setDropdownOption3] = useState('fs');
 
     const handleDropdownOption1 = (e) => {
         const selectedValue = e.target.value;
         setDropdownOption1(selectedValue);
 
         if (selectedValue === 'techTest') {
-            setDropdownOption2('master');
+            setDropdownOption2('');
             setDropdownOption3('');
         } else if (selectedValue === 'govTest') {
             setDropdownOption2('gov7');
