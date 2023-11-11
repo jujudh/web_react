@@ -3,6 +3,8 @@
 import React, { useState } from 'react';
 
 const ExamOptionList = (e) => {
+    const history = useHistory();
+    
     const [dropdown1, setDropdownOption1] = useState('techTest');
     const [dropdown2, setDropdownOption2] = useState('master');
     const [dropdown3, setDropdownOption3] = useState('fs');
@@ -36,6 +38,17 @@ const ExamOptionList = (e) => {
             setDropdownOption3('df');
         }
     };
+
+    const handleSearchClick = () => {
+        history.push({
+            pathname: '/download',
+            state: {
+                dropdown1,
+                dropdown2,
+                dropdown3,
+            },
+        });
+    };    
 
 
     return (
@@ -393,6 +406,8 @@ const ExamOptionList = (e) => {
                 )}
             </select>
             </div>
+            <button onClick={handleSearchClick}> 검색하기 </button>
+            <button>시작하기</button>
         </div>
     );
 
