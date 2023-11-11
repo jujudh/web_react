@@ -1,3 +1,5 @@
+/*자격증 종류를 선택하는 필터 컴포넌트*/
+
 import React, { useState } from 'react';
 
 const ExamOptionList = (e) => {
