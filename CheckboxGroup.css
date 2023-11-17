@@ -1,0 +1,26 @@
+/* 전체 영역 스타일링 */
+.CheckboxGroupContainer {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+/* 각 체크박스 옵션 스타일링 */
+.CheckboxGroupContainer h2 {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.CheckboxGroupContainer input {
+    margin-right: 5px;
+}
+
+.CheckboxGroupContainer label {
+    font-size: 14px;
+}
+
+/* 여백 및 정렬 조절 */
+.CheckboxGroupContainer div {
+    margin-bottom: 15px;
+}
