@@ -1,0 +1,24 @@
+/* 전체 영역 스타일링 */
+.DownloadContainer {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+/* 선택한 옵션 스타일링 */
+.DownloadContainer p {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+/* 정렬 옵션 스타일링 */
+.DownloadContainer select {
+    padding: 8px;
+    font-size: 14px;
+}
+
+/* DownloadButton 컴포넌트와의 간격 조절 */
+.DownloadContainer > div {
+    margin-top: 15px;
+}

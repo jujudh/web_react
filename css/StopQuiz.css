@@ -1,0 +1,23 @@
+.quiz-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.correct-questions, .incorrect-questions {
+    width: 45%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+}
+
+.question {
+    margin-bottom: 8px;
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 20px;
+    text-align: center;
+    color: #333;
+}
