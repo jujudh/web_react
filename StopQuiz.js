@@ -25,21 +25,29 @@ const StopQuiz = (props) => {
             .catch((error) => console.error('Error fetching quiz data:', error));
     }, [correctAnswers, selectedAnswers]);
 
+    const correctQuestions = displayedQuestions.filter(question => question.isCorrect);
+    const incorrectQuestions = displayedQuestions.filter(question => !question.isCorrect);
+
     return (
-        <div>
-            {displayedQuestions.map((question, index) => (
-                <div key={index}>
-                    <div>
-                        {question.isCorrect && '맞은 문제'}
-                        {!question.isCorrect && '틀린 문제'}
-                    </div>
-                    <div>
+        <div className="quiz-container">
+            <div className="correct-questions">
+                <h2>맞은 문제</h2>
+                {correctQuestions.map((question, index) => (
+                    <div key={index} className="question">
                         <em>{index + 1}</em>.
                         <span>{question.infoQuestion}</span>
                     </div>
-                    {/* 이하 추가적으로 원하는 정보를 표시할 수 있도록 UI를 구성하세요 */}
-                </div>
-            ))}
+                ))}
+            </div>
+            <div className="incorrect-questions">
+                <h2>틀린 문제</h2>
+                {incorrectQuestions.map((question, index) => (
+                    <div key={index} className="question">
+                        <em>{index + 1}</em>.
+                        <span>{question.infoQuestion}</span>
+                    </div>
+                ))}
+            </div>
         </div>
     );
 };
