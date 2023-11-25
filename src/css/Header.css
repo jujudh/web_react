@@ -1,0 +1,74 @@
+.headerStyle {
+    background-color: #203257;
+    padding: 5px 0px 5px;
+    font-family: 'Dancing Script', sans-serif;
+    color: white;
+    display: flex;
+
+}
+.ti {
+    color: white;
+    font-size: 20px;
+    font-weight: normal;
+    margin-left: 45px;
+    margin-top: 145px;
+    padding-top: 70px;
+    margin-right: 5px;
+    margin-bottom: 15px;
+    text-decoration: none;
+
+}
+
+.qa {
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: right;
+    float: right;
+    font-weight: normal;
+
+}
+.lb {
+    color: white;
+    margin-right: 45px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 600px;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: right;
+    float: right;
+    font-weight: normal;
+
+}
+
+.sb {
+    color: white;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: right;
+    float: right;
+    font-weight: normal;
+
+}
+.logoimage {
+    width: 70px; /* 너비 조정 */
+    height: 60px; /* 높이 자동 조정 */
+    margin-right: 30px;
+    margin-top: 0px;
+    margin-left: 800px;
+
+}
+
+.qna{
+    font-size: 20px;
+}
+.logo {
+    margin-top: 20px;
+}

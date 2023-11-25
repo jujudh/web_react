@@ -1,0 +1,44 @@
+/* 전체 영역 스타일링 */
+.CheckboxGroupContainer {
+    margin: 50px;
+    margin-right: 300px;
+    margin-left: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 10px;
+
+}
+
+/* 각 체크박스 옵션 스타일링 */
+.CheckboxGroupContainer h2 {
+    font-size: 16px;
+    padding-left: 120px;
+    margin-bottom: 8px;
+    margin-right: 150px;
+    font-family: 'JalnanGothic', serif;
+}
+
+.CheckboxGroupContainer input {
+    margin-right: 5px;
+}
+
+.CheckboxGroupContainer label {
+    font-size: 14px;
+    font-family: 'JalnanGothic', serif;
+}
+
+/* 여백 및 정렬 조절 */
+.CheckboxGroupContainer div {
+    margin-bottom: 15px;
+}
+.checkbox1 {
+    text-align: center;
+
+}
+@font-face {
+    font-family: 'JalnanGothic';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_231029@1.1/JalnanGothic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

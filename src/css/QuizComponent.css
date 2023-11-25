@@ -1,0 +1,124 @@
+/* QuizComponent 디자인 스타일 */
+
+.QuizComponentContainer {
+    margin: 50px;
+    height: 650px;
+    margin-right: 500px;
+    margin-left: 500px;
+    padding: 25px;
+    border: 3px solid #122233;
+    border-radius: 15px;
+    font-family: 'JalnanGothic', serif;
+    font-size: 20px;
+}
+
+.quiz-container4 {
+    max-width: 1000px;
+    height: 630px;
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 8px;
+    overflow: auto;
+}
+
+.quiz-container4 > div {
+    margin-bottom: 15px;
+}
+
+.quiz-container4 div > span {
+    font-weight: bold;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.quiz-container4 div > em {
+    color: #000000;
+}
+
+.quiz-container4 div > label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.quiz-container4 div > label > input {
+    margin-right: 10px;
+}
+
+
+.find-btn {
+    display: flex;
+    max-width: 900px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    color: #464646;
+    margin-top: 70px;
+}
+
+
+
+.showButton {
+    flex: 1; /* 가운데에 정렬되도록 flex 속성 추가 */
+    margin-left: 250px;
+    margin-right: 10px;
+    height: 40px;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+    font-family: 'JalnanGothic', serif;
+}
+
+.stopButton {
+    flex: 1; /* 가운데에 정렬되도록 flex 속성 추가 */
+    margin-right: 250px;
+    margin-left: 10px;
+    height: 40px;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+    font-family: 'JalnanGothic', serif;
+}
+
+
+.lastButton, .nextButton {
+    flex: 1;
+    height: 40px;
+    margin-right: 10px; /* 각 버튼 사이의 간격 조절 */
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+}
+
+.question {
+    font-size: 15px;
+}
+
+.num {
+    font-size: 25px;
+    font-weight: bold;
+    color: #262626;
+}
+
+.leftQuiz {
+    padding-top: 3px;
+    text-align: right;
+}
+
+.score {
+    margin-left: 10px;
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+@font-face {
+    font-family: 'JalnanGothic';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_231029@1.1/JalnanGothic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

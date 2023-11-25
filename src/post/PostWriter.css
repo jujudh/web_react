@@ -1,0 +1,150 @@
+.parent {
+    width: 2000px;
+    padding: 10px;
+    position: absolute;
+    top: 10px;
+    margin-top: 100px;
+
+}
+.qnaboard-detail-wrapper1 {
+    width: 1000px;
+    float: left;
+
+
+}
+.post-view-go-list-btn1 {
+    background: none;
+    border: 3px solid;
+    line-height: 1;
+    margin:0.5em;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    color: #344283;
+    width:500px;
+    height:50px;
+    font-size: 100%;
+    border-radius: 10px 10px 10px 10px;
+    margin-left: 355px;
+
+}
+.post-view-go-list-btn1:hover{
+    color: #98b6bb;
+}
+.writepost{
+    background: none;
+    border: 3px solid;
+    line-height: 1;
+    margin:0.5em;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    color: #344283;
+    width:500px;
+    height:50px;
+    font-size: 100%;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 60px;
+    margin-left: 310px;
+}
+
+.writepost:hover {
+    color: #98b6bb;
+}
+.qnaboard-detail-row1{
+    margin: 10px 0;
+    width: 800px;
+    display: flex;
+    margin-left: 100px;
+    margin-right: 10px;
+}
+.qnaboard-detail-row1 > label:first-child {
+    margin: 10px 0;
+    width: 30%;
+    font-weight: bold;
+}
+
+.qnaboard-detail-row1 > *:nth-child(2) {
+    margin: 10px 0;
+    width: 70%;
+}
+.h21 {
+    margin-left: 490px;
+    margin-bottom: 80px;
+    font-size: 45px;
+    color: #162d49;
+    font-family: 'BMJUA', serif;
+}
+.bannerb {
+    width: 280px;
+    height: 1000px;
+    background: url("../image/banner3.png");
+    float: left;
+    margin-left: 290px;
+    margin-right: 0px;
+    margin-top: 200px;
+}
+
+.bannerbb {
+    width: 280px;
+    height: 1000px;
+    background: url("../image/banner4.png");
+    float: left;
+    margin-right: 0px;
+    margin-top: 200px;
+}
+.formw {
+    width: 1000px;
+    margin-left: 600px;
+    height:200px ;
+}
+
+.titleinput {
+    width: 700px;
+    height: 32px;
+    font-size: 15px;
+    border: 0;
+    border-radius: 15px;
+    outline: none;
+    padding-left: 10px;
+    background-color: rgb(233, 233, 233);
+}
+.titletextarea{
+    width: 700px;
+    font-size: 15px;
+    border: 0;
+    border-radius: 15px;
+    outline: none;
+    padding-left: 10px;
+    background-color: rgb(233, 233, 233);
+}
+.nname{
+    font-family: 'HakgyoansimBareonbatangB', serif;
+    font-weight: bold;
+    display:inline-block;
+    width:100px;
+    padding-left: 20px;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 10px;
+
+}
+
+@font-face {
+    font-family: 'LOTTERIADDAG';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/LOTTERIADDAG.woff2') format('woff2');
+    font-weight: normal;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: 'HakgyoansimBareonbatangB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/HakgyoansimBareonbatangB.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}

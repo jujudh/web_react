@@ -1,0 +1,164 @@
+
+body {
+    margin: 0;
+    overflow-y: auto;
+}
+
+.outer {
+    height: 100vh;
+    overflow-y: auto;
+}
+
+/* 화면에서 스크롤바 안보이게 */
+.outer::-webkit-scrollbar {
+    display: none;
+}
+
+.inner {
+    height: 100vh;
+    font-size: 120px;
+}
+.divider{
+    height: 100vh;
+}
+
+.homeFont {
+    color: #e0e0e0;
+    text-align: center;
+    padding-top: 250px;
+    align-items: center;
+    font-family: 'LOTTERIADDAG', serif;
+    letter-spacing: -8px;
+    /* 애니메이션 적용 */
+    animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+
+}
+
+@font-face {
+    font-family: 'LOTTERIADDAG';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/LOTTERIADDAG.woff2') format('woff2');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@keyframes focus-in-expand {
+    0% {
+        letter-spacing: -0.5em;
+        filter: blur(12px);
+        opacity: 0;
+    }
+    100% {
+        filter: blur(0px);
+        opacity: 1;
+    }
+}
+
+
+
+.subFont {
+    color: #c2c2c2;
+    text-align: center;
+    font-family: 'HakgyoansimBareonbatangB', serif;
+    letter-spacing: 0px;
+    font-size: 40%;
+    animation: focus-in-expand 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.25s both;
+}
+
+@font-face {
+    font-family: 'HakgyoansimBareonbatangB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/HakgyoansimBareonbatangB.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+.buttonStyle {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: #fff;
+    padding: 5px 10px; /* 버튼의 내부 여백 조절 */
+    font-size: 14px; /* 버튼의 글자 크기 조절 */
+}
+
+
+.scrollM{
+    align-self: flex-end;
+
+}
+
+.mainPage{
+    background-color: none;
+    background-image: url("../image/4.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    block-size: cover;
+    background-attachment: fixed;
+    background-size: 100%;
+
+
+}
+
+
+
+.title{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+}
+
+a {
+    padding-top: 0px;
+}
+a span {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 30px;
+    height: 30px;
+    margin-left: -12px;
+    border-left: 2px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-animation: sdb 2s infinite;
+    animation: sdb 2.5s infinite;
+    opacity: 0;
+    box-sizing: border-box;
+}
+a span:nth-of-type(1) {
+    top: 808px;
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+}
+a span:nth-of-type(2) {
+    top: 828px;
+    -webkit-animation-delay: .18s;
+    animation-delay: .18s;
+}
+a span:nth-of-type(3) {
+    top: 848px;
+    -webkit-animation-delay: .36s;
+    animation-delay: .36s;
+}
+@-webkit-keyframes sdb {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+@keyframes sdb {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}

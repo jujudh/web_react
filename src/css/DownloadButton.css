@@ -1,0 +1,25 @@
+/* 버튼 스타일링 */
+.DownloadButton {
+    margin: 5px;
+    padding: 10px 15px;
+    font-size: 14px;
+    color: #989797;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    margin-top: 900px;
+}
+
+/* 버튼 호버 효과 */
+.downbbb:hover {
+
+    box-shadow: 5px 5px 5px 5px gray ;
+}
+.downbbb{
+
+    color: #5d5d5d;
+    margin-top: 50px;
+    font-family: 'BMJUA', serif;
+}

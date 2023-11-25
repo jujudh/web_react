@@ -1,0 +1,47 @@
+[
+  {
+    "infoType": "정보처리기사",
+    "infoTime": "2022년 1회",
+    "infoNumber": "20100501",
+    "infoQuestion": "다음이 설명하고 있는 데이터 입출력 방식은?- 데이터의 입출력 전송이 CPU를 통하지 않고, 입출력 장치와 기억 장치 간에 직접 데이터를 주고받는다.- CPU와 주변 장치간의 속도차를 줄일 수 있다.",
+    "infoChoice": ["DCA", "DMA", "Multiplexer", "Channel"],
+    "infoAnswer": "DMA",
+    "infoDesc": "DMA(Direct Memory Access) : CPU 관여 없이 주기억장치와 보조기억장치(주변장치) 사이에 데이터를 전송하는 방식"
+  },
+  {
+    "infoType": "정보처리기사",
+    "infoTime": "2022년 1회",
+    "infoNumber": "20100502",
+    "infoQuestion": "컴퓨터 시스템의 중앙처리장치를 구성하는 하나의 회로로써 산술 및 논리 연산을 수행하는 장치는?",
+    "infoChoice": ["Arithmetic Logic Uni", "Memory Unit", "I/O Unit", "Associative Memory Unit"],
+    "infoAnswer": "Arithmetic Logic Uni",
+    "infoDesc": "ALU(Arithmetic Logic Unit) : 산술 논리 연산 장치 Memory Unit : 기억 장치 I/O Unit : 입출력 장치 Associative Memory Unit : 연관메모리(주소가 아닌 내용에 의한 참조를 할수 있으며 캐시 메모리로 주로 사용됨)"
+  },
+  {
+    "infoType": "정보처리기사",
+    "infoTime": "2022년 1회",
+    "infoNumber": "20100503",
+    "infoQuestion": "제어논리장치(CLU)와 산술논리연산 장치(ALU)의 실행순서를 제어하기 위해 사용되는 레지스터는?",
+    "infoChoice": ["누산기(accumulator)", "프로그램 상태 워드(program Status World)", "명령 레지스터(instruction register)", "플래그 레지스터(flag register)"],
+    "infoAnswer": "플래그 레지스터(flag register)",
+    "infoDesc": "플래그 레지스터는 플래그 비트에 0 또는 1을 기록하여 각종 상태가 ON, OFF 인지 구별할수 있게 해줍니다."
+  },
+  {
+    "infoType": "정보처리기사",
+    "infoTime": "2022년 1회",
+    "infoNumber": "20100504",
+    "infoQuestion": "번지(address)로 지정된 저장위치(storage location)의 내용이 실제 번지가 되는 주소지정번지는?",
+    "infoChoice": ["간접지정방식", "완전지정방식", "절대지정방식", "상대지정방식"],
+    "infoAnswer": "간접지정방식",
+    "infoDesc": "번지의 번지가 실제 주소가 된다고 하니 2번 참조되는 것을 의미 합니다. 즉시주소 지정방식 - 메모리 참조횟수 0 직접주소 지정방식 - 메모리 참조횟수 1 간접주소 지정방식 - 메모리 참조횟수 2 그러므로 간접주소 지정방식."
+  },
+  {
+    "infoType": "정보처리기사",
+    "infoTime": "2022년 1회",
+    "infoNumber": "20100505",
+    "infoQuestion": "JK플립플롭(flip flop)에서 보수가 출력되기 위한 J, K의 입력상태는??",
+    "infoChoice": ["J=1, K=0", "J=0, K=1", "J=1, K=1", "J=0, K=0"],
+    "infoAnswer": "J=1, K=1",
+    "infoDesc": "J K 0 0 - 기존값유지 0 1 - 0 1 0 - 1 1 1 - 반전(=보수)"
+  }
+]

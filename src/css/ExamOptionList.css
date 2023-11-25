@@ -1,0 +1,41 @@
+/* 전체 영역 스타일링 */
+.ExamOptionListContainer {
+    margin: 20px;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-family: 'JalnanGothic', serif;
+    text-align: center;
+}
+
+/* 각 옵션 레이블 스타일링 */
+.ExamOptionListContainer label {
+    font-weight: bold;
+    margin-right: 10px;
+    font-family: 'JalnanGothic', serif;
+}
+
+/* 드롭다운 스타일링 */
+.ExamOptionListContainer select {
+    width: 15%;
+    padding: 8px;
+    margin-top: 8px;
+    margin-right: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: 'JalnanGothic', serif;
+}
+
+/* 여백 조절 */
+.ExamOptionListContainer div {
+    margin-bottom: 15px;
+}
+
+@font-face {
+    font-family: 'JalnanGothic';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_231029@1.1/JalnanGothic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

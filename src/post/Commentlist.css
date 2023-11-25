@@ -1,0 +1,85 @@
+.textcomment {
+    border-bottom: 1px solid #162d49;
+    width: 680px;
+    height: 50px;
+    border-radius: 10px 10px 10px 10px;
+}
+.textcomment:hover{
+    transform: scale(1.2, 1.2);
+    transition-duration: 0.5s;
+}
+
+.ultype {
+    list-style-type: none;
+}
+
+.litype{
+    margin: 35px;
+    margin-bottom: 5px;
+
+}
+
+.ctype {
+    border-bottom:1px solid #ababab;
+    width: 800px;
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.litype:hover{
+    background-color: #92a9b6;
+}
+
+.commentContainer {
+    margin: 0px;
+    height: 150px;
+    margin-left: 150px;
+}
+
+.subButton:hover{
+
+    color: #282c34;
+}
+
+.subButton-outline {
+    border: 3px solid aliceblue;
+    color: #98b6bb;
+}
+
+.subButton-outline:hover {
+    color: #98b6bb;
+    background: aliceblue;
+}
+
+
+.subButton {
+    background-color: aliceblue;
+    color: #989797;
+    position: relative;
+    border: none;
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 15px;
+    font-family: "paybooc-Light", sans-serif;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.25s;
+    margin-left: 600px;
+}
+
+.subButton-outline {
+    position: relative;
+    padding: 15px 30px;
+    border-radius: 15px;
+    font-family: "paybooc-Light", sans-serif;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.25s;
+}
+.formm {
+    width:700px;
+    height: 50px;
+    margin-left: 33px;
+}

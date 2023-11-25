@@ -1,0 +1,110 @@
+.parent0 {
+    width: 2000px;
+    padding: 10px;
+    position: absolute;
+    top: 10px;
+    margin-top: 100px;
+
+}
+.qnaboard-detail-wrapper0 {
+    width: 60%;
+    margin: 0 auto;
+    margin-left: 200px;
+
+
+
+}
+.qnaboard-detail-go-list-btn0 {
+    border: 0;
+    padding: 10px;
+    background-color: #ffd9d9;
+}
+.post-view-go-list-btn0{
+    background: none;
+    border: 3px solid;
+    line-height: 1;
+    margin:0.5em;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    color: #98b6bb;
+    width:700px;
+    height:50px;
+    font-size: 100%;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 30px;
+    margin-left: 170px;
+
+}
+.post-view-go-list-btn0:hover{
+    color: #464646;
+}
+
+.qnaboard-detail-row0{
+    margin: 10px 0;
+    display: flex;
+    margin-bottom: 30px;
+    margin-left: 180px;
+    border-bottom: 1px solid #92a9b6;
+    width: 700px;
+    font-family: 'BMJUA', serif;
+    background-color: #eaeaea;
+
+
+}
+.qnaboard-detail-row0 > label:first-child {
+    margin: 10px 0;
+    width: 30%;
+    font-weight: bold;
+}
+
+.qnaboard-detail-row0 > *:nth-child(2) {
+    margin: 10px 0;
+    width: 70%;
+}
+
+
+.nummmm{
+    margin-left: 200px;
+
+}
+
+.postcontainer0{
+    width: 1200px;
+    float: left;
+    margin-top: 30px;
+
+}
+.banner {
+    width: 330px;
+    height: 1000px;
+    background: url("../image/banner.png");
+    float: left;
+    margin-left: 300px;
+    margin-right: 0px;
+    margin-top: 130px;
+}
+.mycommnent {
+    width: 1000px;
+    margin-top: 20px;
+    margin-left: 180px;
+    font-family: 'BMJUA', serif;
+}
+.titi {
+    margin-left: 380px;
+    margin-bottom: 40px;
+    font-family: 'BMJUA', serif;
+}
+
+.r1 {
+    margin-right: 300px;
+}
+
+@font-face {
+    font-family: 'BMJUA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMJUA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

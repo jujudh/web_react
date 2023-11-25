@@ -1,0 +1,28 @@
+.qna-board-container1 {
+
+    flex-direction: column; /* 수직으로 배치 */
+    align-items: center; /* 가운데 정렬 */
+    border-bottom:none;
+    background-color: #cee4ee;
+    height: 1000px;
+}
+
+
+.linklist{
+    color: #000000;
+    font-family: 'JalnanGothic', serif;;
+    font-size: 15px;
+    cursor: pointer;
+    display: block;
+    text-decoration: none;
+    text-align: left;
+    margin-right: 15px;
+    margin: 10px;
+}
+
+@font-face {
+    font-family: 'JalnanGothic';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_231029@1.1/JalnanGothic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

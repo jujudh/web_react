@@ -1,0 +1,83 @@
+.qna-board-container1 {
+
+    flex-direction: column; /* 수직으로 배치 */
+    align-items: center; /* 가운데 정렬 */
+    border-bottom:none;
+    background-color: #ffffff;
+    height: 1000px;
+}
+
+.linka1{
+    text-decoration: none;
+    color: inherit;
+    width: 90px;
+    height: 40px;
+    margin-left: auto;
+}
+
+.linkbutton1 {
+    margin-top: 100px;
+    width: 90px;
+    height: 40px;
+
+}
+.mainText1{
+    font-size: 45px;
+    color: #162d49;
+    font-family: 'BMJUA', serif;
+}
+.mainbutton{
+    margin-left: 900px;
+}
+
+
+.linkbutton1 {
+    background-color: #344283;
+    color: #92a9b6;
+}
+
+.linkbutton1-outline {
+    border: 3px solid aliceblue;
+    color: #344283;
+}
+
+.linkbutton1-outline:hover {
+    color: #5e5c5c;
+    background: #344283;
+}
+
+
+.linkbutton1 {
+    position: relative;
+    border: none;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-family: "paybooc-Light", sans-serif;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.25s;
+    margin-left: 600px;
+}
+.linkbutton1:hover{
+    color: #FFFFFF;
+}
+.linkbutton1-outline {
+    position: relative;
+    padding: 15px 30px;
+    border-radius: 15px;
+    font-family: "paybooc-Light", sans-serif;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.25s;
+}
+
+@font-face {
+    font-family: 'BMJUA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMJUA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
